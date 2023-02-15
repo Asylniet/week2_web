@@ -1,0 +1,202 @@
+.VBK {
+    display: block;
+    width: 1728px;
+    height: 60px;
+    background: #E0E0E0;
+    left: 0px;
+    right: 0px;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.news {         
+    margin-left: 76px;
+}
+
+.tek {
+    width: 223px;
+    height: 28px;
+    left: 1425px;
+    top: 34px;
+    position: absolute;
+}
+
+.ush {
+    float: left;
+}
+
+.jabu {
+    font-size: 18px;
+    padding-left: 216px;
+}
+
+.kart {
+    margin-top: 28px;
+    font-size: 32px;
+    padding-left: 24px;
+    padding-right: 49px;
+}
+
+.text {
+    margin-top: 30px;
+    font-size: 24px;
+    padding-left: 24px;
+    padding-right: 19px;
+}
+
+.bir1 {
+    margin-top: 75px;
+    margin-left: 76px;
+    background-color: #F4F4F4;
+    display: block;
+    width: 274px;
+    height: 380px;
+    border-radius: 10px;
+}
+
+.jabu2 {
+    font-size: 18px;
+    padding-left: 216px;
+}
+
+.kart2 {
+    margin-top: 20px;
+    font-size: 32px;
+    padding-left: 24px;
+    padding-right: 49px;
+}
+
+.text2 {
+    margin-top: 18px;
+    font-size: 24px;
+    padding-left: 24px;
+    padding-right: 19px;
+}
+
+.eki2 {
+    border-radius: 10px;
+    display: block;
+    margin-top: 75px;
+    margin-left: 76px;
+    background-color: #F4F4F4;
+    width: 274px;
+    height: 380px;
+}
+
+.jabu3 {
+    font-size: 18px;
+    padding-left: 216px;
+}
+
+.kart3 {
+    margin-top: 20px;
+    font-size: 32px;
+    padding-left: 24px;
+    padding-right: 49px;
+}
+
+.text3 {
+    margin-top: 18px;
+    font-size: 24px;
+    padding-left: 24px;
+    padding-right: 19px;
+}
+
+
+.ush3 {
+    border-radius: 10px;
+    display: block;
+    margin-top: 75px;
+    margin-left: 76px;
+    background-color: #F4F4F4;
+    width: 274px;
+    height: 380px;
+}
+
+.zhabyskak {
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    /* display: flex; */
+    float: right;
+    position: sticky;
+    width: 1200px;
+    height: 380px;
+
+    margin-right: 74px;
+    margin-top: 75px;
+}
+
+.textforjab {
+    font-size: 24px;
+    /* padding-top: 27px; */
+    padding-left: 27px;
+}
+
+.line {
+    display: block;
+    /* padding-top: 150px; */
+    /* margin-top: 150px; */
+    margin-left: 100px;
+}
+
+.Yers {
+    font-size: 60px;
+    padding-left: 488px;
+}
+
+.AboutYers {
+    font-size: 40px;
+    padding-left: 97px;
+    padding-right: 80px;
+}
+
+.phonenumber {
+    font-size: 18px;
+    padding-top: 109px;
+    padding-left: 97px;
+}
+
+.tolyk {
+    border-radius: 10px;
+    display: block;
+    background-color: #3455FF;
+    width: 250px;
+    height: 75px;
+    margin-left: 97px;
+}
+
+.tolygyrak {
+    padding-left: 45px;
+    padding-top: 15px;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.finish {
+    width: 1728px;
+    height: 471px;
+    background-color: #F4F4F4;
+    margin-top: 60px;
+}
+
+.lasttext {
+    padding-top: 77px;
+    padding-left: 103px;
+    color: black;
+    font-size: 24px;
+}
+
+
+.lasttext2 {
+    padding-top: 33px;
+    padding-left: 103px;
+    color: black;
+    font-size: 24px;
+}
+
+.uhuh {
+    padding-top: 225px;
+    padding-left: 103px;
+    font-size: 16px;
+    color: black;
+}
