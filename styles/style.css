@@ -1,12 +1,63 @@
-.VBK {
-    display: block;
-    width: 1728px;
-    height: 60px;
-    background: #E0E0E0;
-    left: 0px;
-    right: 0px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #F4F4F4;
+    position: fixed;
+    top: 0;
+    z-index: 2;
     font-size: 24px;
-    padding-top: 26px;
+    padding-left: 80px;
+    padding-top: 24px;
+}
+
+.right {
+    position: absolute;
+    right: 80px;
+}
+
+main {
+    margin-top: 80px;
+    padding: 0 80px;
+}
+
+.container {
+    padding-top: 60px;
+}
+
+.card {
+    max-width: 275px;
+    background-color: #F4F4F4;
+    font-size: 24px;
+    padding: 15px 20px;
+    min-height: 380px;
+    max-height: 500px;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+
+.card span {
+    display: block;
+}
+
+.card__close-button {
+    font-size: 18px;
+    text-align: end;
+}
+
+.card__title {
+    font-size: 32px;
+    margin-bottom: 33px;
+    max-width: 230px;
+}
+
+.main-content {
+    margin-left: 100px;
 }
 
 .news {         
@@ -35,13 +86,6 @@
     font-size: 32px;
     padding-left: 24px;
     padding-right: 49px;
-}
-
-.text {
-    margin-top: 30px;
-    font-size: 24px;
-    padding-left: 24px;
-    padding-right: 19px;
 }
 
 .bir1 {
