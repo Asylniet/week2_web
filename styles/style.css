@@ -4,16 +4,21 @@
     box-sizing: border-box;
 }
 
+.br-r10 {
+    border-radius: 10px;
+}
+
 header {
     width: 100%;
     height: 80px;
-    background-color: #F4F4F4;
+    background-color: rgba(244, 244, 244, 0.8);
     position: fixed;
     top: 0;
     z-index: 2;
     font-size: 24px;
     padding-left: 80px;
     padding-top: 24px;
+    backdrop-filter: blur(10px);
 }
 
 .right {
@@ -28,6 +33,11 @@ main {
 
 .container {
     padding-top: 60px;
+    position: relative;
+}
+
+.card-wrapper {
+    display: inline-block;
 }
 
 .card {
@@ -41,6 +51,15 @@ main {
     margin-bottom: 20px;
 }
 
+.card:last-child {
+    margin-bottom: 0;
+}
+
+.card:nth-child(2n+4) {
+    background-color: red;
+}
+
+
 .card span {
     display: block;
 }
@@ -48,6 +67,13 @@ main {
 .card__close-button {
     font-size: 18px;
     text-align: end;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.card__close-button:hover {
+    background-color: #007e8d;
+    color: #fff;
 }
 
 .card__title {
@@ -57,7 +83,33 @@ main {
 }
 
 .main-content {
-    margin-left: 100px;
+    position: sticky;
+    top: 100px;
+    right: 0;
+    width: calc(100% - 275px - 100px);
+    height: 380px;
+    background-color: #F4F4F4;
+    float: right;
+    padding: 20px;
+    font-size: 24px;
+    transition: 0.2s ease;
+}
+
+.main-content:hover {
+    width: calc(100% - 275px - 200px);
+}
+
+.main-content img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    margin: 40px 0;
 }
 
 .news {         
@@ -176,13 +228,6 @@ main {
     padding-left: 27px;
 }
 
-.line {
-    display: block;
-    /* padding-top: 150px; */
-    /* margin-top: 150px; */
-    margin-left: 100px;
-}
-
 .Yers {
     font-size: 60px;
     padding-left: 488px;
@@ -203,17 +248,25 @@ main {
 .tolyk {
     border-radius: 10px;
     display: block;
-    background-color: #3455FF;
+    background-color: #e60000;
     width: 250px;
     height: 75px;
     margin-left: 97px;
-}
-
-.tolygyrak {
     padding-left: 45px;
     padding-top: 15px;
     font-size: 32px;
     color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.tolyk:hover {
+    background-color: #a40101;
+}
+
+.tolyk:focus {
+    outline: 3px solid #007e8d;
+    background-color: green;
 }
 
 .finish {
